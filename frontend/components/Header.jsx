@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import Menu from "./Menu";
 import Link from "next/link";
+import { useSelector } from "react-redux";
 
 const Header = () => {
     const [show, setShow] = useState("translate-y-0");
